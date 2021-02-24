@@ -48,3 +48,24 @@ int main(void) {
 
   return 0;
 }
+
+# Exercise 4
+
+#include <stdio.h>
+
+int main(void) {
+
+ float velocity;  
+ 
+ printf("This program converts km/h to miles per hour\n");
+ 
+ printf("Please insert a velocity in km/h\n");
+ 
+ scanf("%f",&velocity);
+ 
+ float miles = velocity*0.6213712;
+ 
+ printf("That is equivalent to %f miles per hour\n", miles);
+
+  return 0;
+}
