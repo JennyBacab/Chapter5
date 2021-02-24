@@ -23,3 +23,28 @@ int main(void) {
 
   return 0;
 }
+
+# Exercise 2
+
+#include <stdio.h>
+
+int main(void) {
+  
+//This is a program to calculate the perimeter of a rectangle
+
+  printf("This program is to calculate the perimeter of a rectangle\n");
+  
+  float height; 
+  
+  float widht; 
+  
+  printf("Please insert height and widht in that order\n");
+  
+  scanf("%f%f", &height, &widht);
+  
+  float perimeter = 2*(widht+height);
+  
+  printf("The perimeter is %f", perimeter);
+
+  return 0;
+}
