@@ -127,3 +127,28 @@ int main(void) {
   
 }
 
+# Exercise 6
+
+#include <stdio.h>
+
+#include<math.h>
+
+int main(void) {
+
+ printf("This is a program where you insert a quantity in minutes and get the total in hours and minutes\n");
+ 
+ float total;
+ 
+ printf("Please insert quantity in minutes\n");
+ 
+ scanf("%f",&total);
+ 
+ int hours = total/60;
+ 
+ int minutes = total - hours* 60;
+ 
+ printf("The equivalent is %i hours %i minutes", hours, minutes);
+
+  return 0;
+  
+}
