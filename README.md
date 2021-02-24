@@ -47,6 +47,7 @@ int main(void) {
   printf("The perimeter is %f", perimeter);
 
   return 0;
+  
 }
 
 # Exercise 4
@@ -68,4 +69,34 @@ int main(void) {
  printf("That is equivalent to %f miles per hour\n", miles);
 
   return 0;
+  
 }
+
+# Exercise 5
+
+#include <stdio.h>
+
+int main(void) {
+
+ printf("This is a program where you insert hours and minutes and get the quantity of minutes\n");
+ 
+ float hours;
+ 
+ float minutes;
+ 
+ printf("Please insert quantity of hours\n");
+ 
+ scanf("%f",&hours);
+ 
+ printf("Please insert quantity of minutes\n");
+ 
+ scanf("%f",&minutes);
+ 
+ float total = hours*60 + minutes; //This is the conversion
+ 
+ printf("The total of minutes is %f", total);
+
+  return 0;
+  
+}
+
