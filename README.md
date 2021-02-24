@@ -24,7 +24,7 @@ int main(void) {
   return 0;
 }
 
-# Exercise 2
+# Exercise 3
 
 #include <stdio.h>
 
