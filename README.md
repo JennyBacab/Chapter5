@@ -24,6 +24,33 @@ int main(void) {
   return 0;
 }
 
+# Exercise 2
+
+#include<stdio.h>
+
+#include<math.h>
+
+
+int main(void){
+
+  //This is a program to calculate the volume of a sphere
+  
+  float radius;
+  
+  float pi = 3.14159;
+  
+  printf("Please insert the radius of the sphere\n");
+  
+  scanf("%f",&radius);
+  
+  float volume = ((pi*4/3)*(pow(radius, 3)));
+  
+  printf("The volume of the sphere is %f", volume);
+  
+  return 0;
+  
+}
+
 # Exercise 3
 
 #include <stdio.h>
