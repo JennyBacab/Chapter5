@@ -43,7 +43,7 @@ int main(void){
   
   scanf("%f",&radius);
   
-  float volume = ((pi*4/3)*(pow(radius, 3)));
+  float volume = ((pi* 4/3)* (pow(radius, 3)));
   
   printf("The volume of the sphere is %f", volume);
   
